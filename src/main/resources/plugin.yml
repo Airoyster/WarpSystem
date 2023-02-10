@@ -1,0 +1,9 @@
+name: WarpSystem
+version: '${project.version}'
+main: de.airoyster.warpsystem.Main
+api-version: 1.19
+commands:
+  warp:
+permissions:
+  system.warpmanage:
+    default: op
